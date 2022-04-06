@@ -19,12 +19,11 @@ fs.readFile(process.argv[2], 'utf8', (err, data) => {
 
     for(let row of split){
         
-        if(row !== ""){
-            board.push(row.split(' ').filter((i) => i !== ""));
+        if(row){
+            board.push(row.split(' ').filter((i) => i));
         } else {
             boards.push(board);
             board = [];
-        
         }
     }
 
