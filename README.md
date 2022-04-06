@@ -1,6 +1,3 @@
-# git-tutorial
-
-# add new line again
-
-
-#Add new test line
+# how to use
+# node index.js <path input file>
+# example : node index.js ~/Downloads/input.txt
